@@ -41,7 +41,7 @@ public class TestTraductor {
                     System.out.println(Alfabeto.ALFABETO_BASICO[i]);
                 }
                 
-                String palabrausuario = JOptionPane.showInputDialog("por favor introdusca la frase o palbra a traducir");
+                String palabrausuario = JOptionPane.showInputDialog("por favor introdusca la frase o palabra a traducir");
                 System.out.println("Traduciendo........");
                 a.palabra = palabrausuario.toUpperCase();
 
@@ -67,7 +67,7 @@ public class TestTraductor {
                 for (int i = 0; i < Alfabeto.ALFABETO_SECRETO.length; i++) {
                     System.out.println(Alfabeto.ALFABETO_SECRETO[i]);
                 }
-                String palabrausuario = JOptionPane.showInputDialog("por favor introdusca la frase o palbra a traducir");
+                String palabrausuario = JOptionPane.showInputDialog("por favor introdusca la frase o palabra a traducir");
 
                 System.out.println("Traduciendo........");
                 b.palabra = palabrausuario.toUpperCase();
