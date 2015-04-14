@@ -50,8 +50,7 @@ public class ThreadCircle extends Thread{
 						sleep(delay);	
 					}
 					sy=420;
-				}
-				
+				}	
 				if (sy == 420){
 					for ( int i = 0; i <=jump;i++) {
 						sy--;
@@ -60,8 +59,7 @@ public class ThreadCircle extends Thread{
 					}
 					sy=20;
 				}
-			} catch (InterruptedException e) {
-				
+			} catch (InterruptedException e) {	
 				e.printStackTrace();
 			}
 		}
